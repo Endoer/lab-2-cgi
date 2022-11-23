@@ -1,0 +1,26 @@
+
+.gameBlock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gameForm{
+    max-width: 400px;
+    display: flex; 
+      align-items: center;  
+    border: 1px solid black;
+     flex-direction: column;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+.inputButton{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.hiddenInput{
+    display: none;
+}
